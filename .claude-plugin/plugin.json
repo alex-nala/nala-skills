@@ -1,0 +1,14 @@
+{
+  "name": "nala",
+  "description": "Skills for working with your Nala research in your own AI: synthesise a study, write a decision case, find opportunities, design experiments, plan the next round, check a doc's claims, and tidy a study's snapshots and sub-themes, with Nala's counts and quotes linked throughout.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Nala",
+    "email": "admin@usenala.co.uk",
+    "url": "https://usenala.co.uk"
+  },
+  "homepage": "https://usenala.co.uk",
+  "repository": "https://github.com/alex-nala/nala-skills",
+  "license": "MIT",
+  "keywords": ["user-research", "interviews", "feedback", "product-discovery", "synthesis", "opportunity-solution-tree", "experiments", "decision-making"]
+}

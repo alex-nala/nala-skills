@@ -1,0 +1,17 @@
+{
+  "name": "nala-skills",
+  "owner": {
+    "name": "Nala",
+    "email": "admin@usenala.co.uk"
+  },
+  "metadata": {
+    "description": "Nala's skills and MCP server for working with your user research in Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "nala",
+      "source": "./",
+      "description": "Nala's skills and MCP server: synthesis, cases, opportunities, experiments, next-round planning, claim checks and snapshots, from your Nala research."
+    }
+  ]
+}
