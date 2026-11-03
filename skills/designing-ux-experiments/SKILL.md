@@ -71,5 +71,5 @@ Done when every number in the brief is sourced or marked as an assumption, and p
 ## 7. Hand off
 
 - If the user has PostHog's MCP or its `creating-experiments` skill, offer to set the experiment up there from the brief.
-- If the target is behind a case in Nala (`list_cases`), offer to add the test to its What we'll do section: `suggest_on_case` with a `do` item of `type: "test"` and one of `type: "measure"` for the metric. It lands as suggestions for the author.
+- If the target is behind a case in Nala (`list_cases`), offer to add the test to its What we'll do section: `suggest_on_case` with a `do` item of `type: "test"`, and the primary metric as a `metric` item when you read its baseline from the user's analytics (its `value`, `compare: "aim"` with the pass line, `source` and `as_of`; the guardrail as a second `metric`, sent straight after so they share a row), or one `do` item of `type: "measure"` when the baseline is unknown. It lands as suggestions for the author.
 - If the right next step is more interviews rather than an experiment, say so, and name what to ask next from `to_test`.
